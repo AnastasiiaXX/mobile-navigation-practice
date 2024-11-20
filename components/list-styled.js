@@ -5,7 +5,7 @@ const ProgrammingLanguage = ({ name, experience, logo }) => {
   return (
     <View style={styles.card}>
       <Text style={styles.title}>{name}</Text>
-      <Text style={styles.experience}>Опыт: {experience}</Text>
+      <Text style={styles.experience}>Experience: {experience}</Text>
       <Image source={logo} style={styles.logo} />
     </View>
   );
