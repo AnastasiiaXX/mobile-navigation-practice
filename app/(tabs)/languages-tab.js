@@ -1,7 +1,7 @@
 import React from 'react';
 import { SafeAreaView, FlatList, StyleSheet } from 'react-native';
-import programmingLanguages from '../data/languages-list';
-import ProgrammingLanguage from '../components/list-styled';
+import programmingLanguages from '../../data/languages-list';
+import ProgrammingLanguage from '../../components/list-styled';
 
 const LanguagesScreen = () => {
   return (
